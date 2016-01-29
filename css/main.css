@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px 'Open Sans', sans-serif;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.baner {
+	background: url("../images/header_bg.jpg") no-repeat;
+	padding-top: 45px;
+	color: #fff;
+	/*min-height: 740px;*/
+	text-align: center;
+}
+
+.baner__logo {
+	width: 544px;
+	margin-top: 200px;
+}
+
+.baner__description {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.baner__button {
+	display: inline-block;
+width: 230px;
+border: 2px solid #fff ;
+padding: 15px 0;
+background: rgba(0,0,0, .5);
+margin: 174px 0 100px;
+
+}
+
+.header {
+	min-height: 20px;
+}
+
+.header__logo {
+	float: left;
+}
+
+.main-menu {
+	float: right;
+	font-size: 0;
+	margin-right: 60px;
+}
+
+.main-menu__item {
+	display: inline-block;
+	margin-left: 10px;
+}
+.main-menu__link {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	transition: all .2s easy-in;
+	padding-bottom:18px ;
+	margin-right: 58px;
+}
+
+.main-menu__link--active,
+.main-menu__link:hover {
+	border-bottom: 2px solid #b7c8d9;
+}
